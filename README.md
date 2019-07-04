@@ -5,3 +5,9 @@
 
 Thanks all
 @crisco
+
+***
+Usage:
+```
+wget 
+```
