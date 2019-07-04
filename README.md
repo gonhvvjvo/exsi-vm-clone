@@ -18,3 +18,5 @@ export DSTDS='destinationDatastoreName'
 export DSTVM='desiredVMName'
 python $APP $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
+
+VM answer: I copy it
