@@ -7,7 +7,7 @@ Thanks all
 @crisco
 
 
-# For KN Usage:
+# for KN Usage:
 ```
 Upload script to Datastore /vmfs/volumes/LocalDisk/Scripts/
 
