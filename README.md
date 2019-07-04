@@ -9,5 +9,10 @@ Thanks all
 ***
 Usage:
 ```
-wget 
+export SRCDS='sourceDatastoreName' && \
+export SRCVM='sourceVMname' && \
+export DSTDS='destinationDatastoreName' && \
+export DSTVM='desiredVMName'
+wget -O /tmp/clone.py https://raw.githubusercontent.com/gonhvvjvo/exsi-vm-clone/master/clone.py && \
+python /tmp/clone.py $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
