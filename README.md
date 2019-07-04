@@ -7,13 +7,14 @@ Thanks all
 @crisco
 
 ***
-Usage:
+KN Usage:
 ```
-wget -O /tmp/clone.py https://raw.githubusercontent.com/gonhvvjvo/exsi-vm-clone/master/clone.py
+Upload script to Datastore /vmfs/volumes/LocalDisk/Scripts/
 
+export APP=/vmfs/volumes/LocalDisk/Scripts/clone.py
 export SRCDS='sourceDatastoreName'
 export SRCVM='sourceVMname'
 export DSTDS='destinationDatastoreName'
 export DSTVM='desiredVMName'
-python /tmp/clone.py $SRCDS/$SRCVM $DSTDS/$DSTVM
+python $APP $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
