@@ -19,5 +19,5 @@ export DSTVM='desiredVMName'
 python $APP $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
 
-- VM answer: I copy it
+- VM answer: I Copied It
 - Note: For MS Windows VM recommend use with sysprep
