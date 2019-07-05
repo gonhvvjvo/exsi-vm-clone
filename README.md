@@ -20,4 +20,4 @@ python $APP $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
 1. PowerOn VM
 2. VM answer: I Copied It
--*Note: For MS Windows VM recommend use with sysprep*
+- *Note: For MS Windows VM recommend use with sysprep*
