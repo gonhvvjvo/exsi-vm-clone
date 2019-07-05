@@ -18,6 +18,6 @@ export DSTDS='destinationDatastoreName'
 export DSTVM='desiredVMName'
 python $APP $SRCDS/$SRCVM $DSTDS/$DSTVM
 ```
-
-- VM answer: I Copied It
+1. PowerOn VM
+2. VM answer: I Copied It
 - Note: For MS Windows VM recommend use with sysprep
