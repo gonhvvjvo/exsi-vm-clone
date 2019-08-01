@@ -11,7 +11,7 @@ Thanks all
 ```
 Upload script to Datastore /vmfs/volumes/LocalDisk/Scripts/
 
-export APP=/vmfs/volumes/LocalDisk/Scripts/clonevm.py
+export APP=/vmfs/volumes/$(hostname -s)-LocalDisk/Scripts/clonevm.py
 export SRCDS='sourceDatastoreName'
 export SRCVM='sourceVMname'
 export DSTDS='destinationDatastoreName'
